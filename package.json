@@ -1,0 +1,31 @@
+{
+  "name": "cise_worksheet3_v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node app.js",
+    "app": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zcurranz/cise_worksheet3_v2.git"
+  },
+  "author": "Zachary Curran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zcurranz/cise_worksheet3_v2/issues"
+  },
+  "homepage": "https://github.com/zcurranz/cise_worksheet3_v2#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.5",
+    "validation": "0.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
